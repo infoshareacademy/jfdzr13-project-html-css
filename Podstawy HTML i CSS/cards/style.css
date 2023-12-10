@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Lato:wght@300&family=Lexend+Deca&family=Roboto:wght@300&family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Gabarito&family=Lato:wght@300&family=Lexend+Deca&family=Roboto:wght@300&family=Space+Mono&display=swap");
+/* @media screen and (min-width: 375px) {
+  body {
+    height: 100vh;
+    
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .container {
+    flex-direction: row;
+  }
+} */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: Big Shoulders Display;
+  font-size: 2rem;
+  color: white;
+}
+p {
+  font-family: Lexend Deca;
+  color: white;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.section-style {
+  padding: 40px;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 0px;
+  margin-top: 30px;
+}
