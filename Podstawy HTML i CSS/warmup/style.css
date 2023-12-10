@@ -1,0 +1,43 @@
+.button-sub {
+  background-color: aqua;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  box-shadow: 10px 5px 5px black;
+}
+
+.button-conf {
+  background-color: beige;
+  font-size: 22px;
+  font-family: Times New Roman;
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px black;
+}
+
+.button-can {
+  background-color: aliceblue;
+  font-size: 20px;
+  font-family: "Courier New";
+  border-radius: 15%;
+  border: 2px solid grey;
+  box-shadow: 10px 5px 5px black;
+}
+
+.button:active {
+  background-color: red;
+}
+.button:hover {
+  background-color: violet;
+}
+
+.submit,
+.confirm,
+.cancel {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  cursor: pointer;
+}
