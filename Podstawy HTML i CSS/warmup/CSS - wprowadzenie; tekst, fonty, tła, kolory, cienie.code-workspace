@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../../CSS/CSS - wprowadzenie; tekst, fonty, tła, kolory, cienie"
+	},
+	{
+		"path": "../../../../CSS/CSS - selektory i dziedziczenie"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "CSS - selektory i dziedziczenie"
+  }
+}
