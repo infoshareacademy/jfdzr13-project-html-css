@@ -4,3 +4,40 @@
   justify-content: center;
   align-items: center;
 }
+
+.car {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 400px;
+  width: 150px;
+  line-height: 20px;
+  justify-content: center;
+  text-align: left;
+}
+
+.icon {
+  height: 8%;
+  width: 32%;
+}
+
+.content {
+  height: 100px;
+  width: 150px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.myButton {
+  margin: 10px 0px;
+}
