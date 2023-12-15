@@ -79,3 +79,18 @@ button {
 .wrap__btn-luxury:active {
   background-color: hsl(179, 100%, 13%);
 }
+@media screen and (max-width: 375px) {
+  body {
+    height: 230vh;
+  }
+  .wrap {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .wrap__car-sedan {
+    border-radius: 10px 10px 0 0;
+  }
+  .wrap__car-luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
