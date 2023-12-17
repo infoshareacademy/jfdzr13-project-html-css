@@ -1,11 +1,11 @@
 .window {
   height: 500px;
   width: 500px;
-  position: flex;
-  gap: 10px;
+  display: block;
   position: absolute;
-  background-color: bisque;
-  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .box {
