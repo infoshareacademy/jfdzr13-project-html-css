@@ -1,0 +1,13 @@
+Plan dzialania:
+
+Podzial prac:
+
+Nawigacja - Mateusz
+1. pasek lewy
+2. pasek prawy
+
+content
+3. sekcja image - Sylwia, Emilia - zasady: utworzenie flexa/grida + hover na malych
+4. sekcja pozostale - Krystian, Michal - utworzenie flexów
+
+cale body - Michal - struktura, marginy, paddingi
