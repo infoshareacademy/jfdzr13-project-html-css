@@ -1,0 +1,4 @@
+nav .nav -> (logo), (menu .nav_menu) [nav_button(button .cart, button .avatar)]
+main .main -> aside .aside [div .aside_big, div(4x img) .aside_small] 
+
+            | article .article (h5, h1, p, p .price + span(50%) .discount, p .previous_price, div .article_buttons (button .amount_button, button .cart_button))
