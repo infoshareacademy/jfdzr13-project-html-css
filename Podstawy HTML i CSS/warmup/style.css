@@ -1,0 +1,49 @@
+.btsubmit {
+  background-color: rgb(32, 0, 148);
+  color: white;
+  border-radius: 15px;
+  height: fit-content;
+  cursor: pointer;
+}
+.btconfirm {
+  background-color: green;
+  border-radius: 10px;
+  height: fit-content;
+  cursor: pointer;
+}
+.btcancel {
+  background-color: rgb(32, 0, 148);
+  color: white;
+  height: fit-content;
+}
+.btWarmup:hover {
+  background-color: white;
+  color: rgb(32, 0, 148);
+  height: fit-content;
+  cursor: pointer;
+}
+.containerSubmit {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: fit-content;
+  padding: 15px;
+}
+.containerConfirm {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 15px;
+  background-color: rgb(219, 241, 138);
+}
+.containerCancel {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 15px;
+}
+.btDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 5px 12px 0px 0px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 9px 18px 2px 5px inset;
+}
