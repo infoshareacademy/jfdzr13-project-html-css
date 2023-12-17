@@ -1,21 +1,36 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  max-width: 500px;
-  margin-top: 20px;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .section {
   background-color: lightblue;
   height: 240px;
   width: 240px;
+}
+
+.box1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box2 {
+  position: absolute;
+  top: 0;
+  left: 260px;
+}
+.box3 {
+  position: absolute;
+  top: 260px;
+  left: 0px;
+}
+
+.box4 {
+  position: absolute;
+  top: 260px;
+  left: 260px;
 }
