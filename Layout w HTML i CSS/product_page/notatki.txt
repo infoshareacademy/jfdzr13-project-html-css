@@ -1,0 +1,14 @@
+1. markup
+ - nawigacja
+ - kontener 1 : zdjęcia (kontener na większe zdj, kontener na mniejsze zdjęcia razem)
+ -kontener 2 treść (kontener na treść, kontener na przyciski)
+ -kontener 3 : tło - obudowa makiety
+ - rozbudowa kontenerów
+ 
+nav - Adam
+zdjęcia Marta
+treść Basia
+button Andrzej
+
+2.stylowanie
+
