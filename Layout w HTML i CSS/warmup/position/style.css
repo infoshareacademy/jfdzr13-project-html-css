@@ -1,0 +1,29 @@
+.window {
+  height: 500px;
+  width: 500px;
+  position: flex;
+  gap: 10px;
+  position: absolute;
+  background-color: bisque;
+  align-items: center;
+}
+
+.box {
+  position: absolute;
+  height: 240px;
+  width: 240px;
+  background-color: lightblue;
+}
+
+.b {
+  right: 0px;
+}
+
+.c {
+  bottom: 0px;
+}
+
+.d {
+  bottom: 0px;
+  right: 0px;
+}
