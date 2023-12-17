@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.section {
+  background-color: lightblue;
+  height: 240px;
+  width: 240px;
+}
