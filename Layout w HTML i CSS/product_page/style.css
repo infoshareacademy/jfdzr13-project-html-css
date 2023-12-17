@@ -6,3 +6,32 @@
 body {
   height: 100%;
 }
+
+/* START NAV SECTION */
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.nav_menu {
+  display: flex;
+  list-style: none;
+}
+
+.logo {
+  width: 20%;
+  height: 10%;
+}
+.main {
+  width: 100%;
+  display: flex;
+  padding: 0 20vw;
+}
+
+.aside {
+  width: 50%;
+}
+.aside_big {
+}
