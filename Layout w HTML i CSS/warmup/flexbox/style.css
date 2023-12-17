@@ -1,0 +1,23 @@
+.box {
+    width: 240px;
+    height: 240px;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+.flex-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
