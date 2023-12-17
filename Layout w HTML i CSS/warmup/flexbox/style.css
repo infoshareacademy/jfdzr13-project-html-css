@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.element {
+  width: 240px;
+  height: 240px;
+  background: lightblue;
+}
