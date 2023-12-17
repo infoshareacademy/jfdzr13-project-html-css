@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.window {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.glass {
+    position: absolute;
+    background-color: lightblue;
+    width: 240px;
+    height: 240px;
+}
+
+.glass:nth-child(2) {
+    right: 0;
+}
+
+.glass:nth-child(3) {
+    bottom: 0;
+}
+
+.glass:last-child {
+    bottom: 0;
+    right: 0;
+}

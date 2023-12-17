@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.window {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.glass {
+    background-color: lightblue;
+    width: 240px;
+    height: 240px;
+}
