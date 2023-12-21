@@ -1,0 +1,29 @@
+button:hover {
+  background-color: #3828ae6a;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.submitButton {
+  background-color: greenyellow;
+  transition-duration: 0.5s;
+}
+
+.confirmButton {
+  background-color: rgb(255, 47, 75);
+  transition-duration: 0.5s;
+}
+
+.cancelButton {
+  background-color: rgb(227, 31, 165);
+  transition-duration: 0.5s;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  margin: 5px 10px;
+}
+
+p {
+  margin: 20px;
+}
